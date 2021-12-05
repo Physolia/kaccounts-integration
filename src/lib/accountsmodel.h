@@ -46,6 +46,7 @@ public:
         DataObjectRole,
         ProviderDisplayNameRole,
     };
+    Q_ENUM(Roles);
     explicit AccountsModel(QObject *parent = nullptr);
     virtual ~AccountsModel();
 
